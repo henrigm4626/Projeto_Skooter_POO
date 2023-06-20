@@ -10,7 +10,7 @@ import Auxiliar.Fase;
 import Modelo.InimigoGen;
 import Modelo.Player;
 //import Modelo.ZigueZague;
-import auxiliar.Posicao;
+//import Auxiliar.Posicao;
 import java.awt.FlowLayout;
 import java.awt.Graphics;
 import java.awt.Image;
