@@ -1,10 +1,9 @@
 package Controler;
-//TODO
+
 import Modelo.Blocos;
 import Modelo.Inimigo;
 import Modelo.Personagem;
 import Modelo.Player;
-import auxiliar.Posicao;
 import java.util.ArrayList;
 
 public class ControleDeJogo {
@@ -62,8 +61,4 @@ public class ControleDeJogo {
             }
         }
     }
-    
-    /*public boolean ehPosicaoValida(ArrayList<Personagem> umaFase, Posicao p){
-        No fim, não foi necessário utilizar
-    }*/
 }

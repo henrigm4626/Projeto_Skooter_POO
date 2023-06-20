@@ -35,7 +35,7 @@ public class Posicao  implements Serializable{
         return linha;
     }
     
-    //Adicionando um "get" para linhaAnterior (já definida)
+    // Adicionando um "get" para linhaAnterior (já definida)
     public int getLinhaAnterior() {
         return linhaAnterior;
     }

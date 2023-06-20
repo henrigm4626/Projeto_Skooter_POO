@@ -100,6 +100,7 @@ public class Tela extends javax.swing.JFrame implements MouseListener, KeyListen
         return (invocada != null);
     }
     
+    @Override
     public void paint(Graphics gOld) {
         Graphics g = this.getBufferStrategy().getDrawGraphics();
         /*Criamos um contexto gráfico*/
@@ -121,8 +122,8 @@ public class Tela extends javax.swing.JFrame implements MouseListener, KeyListen
         
         // Incluindo a condição para o loading
         if (!this.faseAtual.isEmpty() || !loading) {
-            this.cj.desenhaTudo(faseAtual);
             this.cj.processaTudo(faseAtual);
+            this.cj.desenhaTudo(faseAtual);
         }
 
         g.dispose();
