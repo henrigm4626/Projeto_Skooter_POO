@@ -47,7 +47,6 @@ public class Tela extends javax.swing.JFrame implements MouseListener, KeyListen
     // Adicionando atributos
     private boolean await_key = true;
     private boolean loading = false;
-    private long last_press = 0;
     private int vidas = 3;
 
     public Tela() {
@@ -135,6 +134,7 @@ public class Tela extends javax.swing.JFrame implements MouseListener, KeyListen
 
     public void go() {
         TimerTask task = new TimerTask() {
+            @Override
             public void run() {
                 repaint();
             }
@@ -143,7 +143,8 @@ public class Tela extends javax.swing.JFrame implements MouseListener, KeyListen
         timer.schedule(task, 0, Consts.PERIOD);
     }
     
-    public void keyPressed(KeyEvent e) {
+        @Override
+    public void keyPressed(KeyEvent e) { 
         if (e.getKeyCode() == KeyEvent.VK_C) {
             this.faseAtual.clear();
         } else if (e.getKeyCode() == KeyEvent.VK_UP) {
@@ -154,6 +155,10 @@ public class Tela extends javax.swing.JFrame implements MouseListener, KeyListen
             jogador.moveLeft();
         } else if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
             jogador.moveRight();
+        } else if (e.getKeyCode() == KeyEvent.VK_L) {
+                loadGame();
+        } else if (e.getKeyCode() == KeyEvent.VK_S) {
+                saveGame();
         }
         
         if (e.getKeyCode() == KeyEvent.VK_SPACE) {
@@ -164,9 +169,9 @@ public class Tela extends javax.swing.JFrame implements MouseListener, KeyListen
             jogador.destroiPersonagem(faseAtual);
         }
         this.setTitle("-> Cell: " + (jogador.getPosicao().getColuna()) + ", "
-                + (jogador.getPosicao().getLinha()));
+        + (jogador.getPosicao().getLinha()));
 
-        //repaint(); /*invoca o paint imediatamente, sem aguardar o refresh*/
+        //repaint(); /* invoca o paint imediatamente, sem aguardar o refresh */
     }
     
         public void loadGame(){
