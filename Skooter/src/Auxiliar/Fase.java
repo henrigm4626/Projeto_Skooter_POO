@@ -112,19 +112,19 @@ public class Fase {
         fase1.add(p_player);
         
         // INIMIGOS
-        InimigoRosa inimigo_Rosa1 = new InimigoRosa("roboRosa.png", p_player);
+        InimigoRosa inimigo_Rosa1 = new InimigoRosa("inimigo_rosa.png", p_player);
         inimigo_Rosa1.setPosicao(10, 1);
         fase1.add(inimigo_Rosa1);
 
-        InimigoRosa inimigo_Rosa2 = new InimigoRosa("roboRosa.png", p_player);
+        InimigoRosa inimigo_Rosa2 = new InimigoRosa("inimigo_rosa.png", p_player);
         inimigo_Rosa2.setPosicao(0, 9);
         fase1.add(inimigo_Rosa2);
 
-        InimigoAzul inimigo_Azul1 = new InimigoAzul("roboAzul.png", p_player);
+        InimigoAzul inimigo_Azul1 = new InimigoAzul("inimigo_azul.png", p_player);
         inimigo_Azul1.setPosicao(2, 0);
         fase1.add(inimigo_Azul1);
 
-        InimigoAmarelo inimigo_Amarelo1 = new InimigoAmarelo("roboAmarelo.png", p_player);
+        InimigoAmarelo inimigo_Amarelo1 = new InimigoAmarelo("inimigo_amarelo.png", p_player);
         inimigo_Amarelo1.setPosicao(10, 9);
         fase1.add(inimigo_Amarelo1);
 
@@ -329,19 +329,19 @@ public class Fase {
 
         
         // COLETAVEIS
-        Coletaveis cereja = new Coletaveis("cereja.png");
+        Coletaveis cereja = new Coletaveis("c_cereja.png");
         cereja.setPosicao(10, 10);
         fase1.add(cereja);
 
-        Coletaveis limao = new Coletaveis("limao.png");
+        Coletaveis limao = new Coletaveis("c_limao.png");
         limao.setPosicao(0, 10);
         fase1.add(limao);
 
-        Coletaveis morango = new Coletaveis("morango.png");
+        Coletaveis morango = new Coletaveis("c_morango.png");
         morango.setPosicao(10, 0);
         fase1.add(morango);
 
-        Coletaveis uva = new Coletaveis("uva.png");
+        Coletaveis uva = new Coletaveis("c_uva.png");
         uva.setPosicao(0, 0);
         fase1.add(uva);
 
@@ -359,155 +359,155 @@ public class Fase {
         fase2.add(p_player);
 
         // INIMIGOS
-        InimigoVerde inimigo_verde1 = new InimigoVerde("roboVerde.png");
+        InimigoVerde inimigo_verde1 = new InimigoVerde("inimigo_verde.png");
         inimigo_verde1.setPosicao(1, 1);
         fase2.add(inimigo_verde1);
 
-        InimigoAmarelo inimigo_amarelo1 = new InimigoAmarelo("roboAmarelo.png", p_player);
+        InimigoAmarelo inimigo_amarelo1 = new InimigoAmarelo("inimigo_amarelo.png", p_player);
         inimigo_amarelo1.setPosicao(1, 9);
         fase2.add(inimigo_amarelo1);
 
-        InimigoAzul inimigo_azul1 = new InimigoAzul("roboAzul.png", p_player);
+        InimigoAzul inimigo_azul1 = new InimigoAzul("inimigo_azul.png", p_player);
         inimigo_azul1.setPosicao(9, 9);
         fase2.add(inimigo_azul1);
 
-        InimigoRosa inimigo_rosa1 = new InimigoRosa("roboRosa.png", p_player);
+        InimigoRosa inimigo_rosa1 = new InimigoRosa("inimigo_rosa.png", p_player);
         inimigo_rosa1.setPosicao(9, 1);
         fase2.add(inimigo_rosa1);
 
         // SETAS PARA CIMA
-        Seta setaCima1 = new Seta("setacima.png", 'U');
+        Seta setaCima1 = new Seta("arrow_up.png", 'U');
         setaCima1.setPosicao(3, 0);
         fase2.add(setaCima1);
 
-        Seta setaCima2 = new Seta("setacima.png", 'U');
+        Seta setaCima2 = new Seta("arrow_up.png", 'U');
         setaCima2.setPosicao(4, 0);
         fase2.add(setaCima2);
 
-        Seta setaCima3 = new Seta("setacima.png", 'U');
+        Seta setaCima3 = new Seta("arrow_up.png", 'U');
         setaCima3.setPosicao(5, 0);
         fase2.add(setaCima3);
 
-        Seta setaCima4 = new Seta("setacima.png", 'U');
+        Seta setaCima4 = new Seta("arrow_up.png", 'U');
         setaCima4.setPosicao(6, 0);
         fase2.add(setaCima4);
 
-        Seta setaCima5 = new Seta("setacima.png", 'U');
+        Seta setaCima5 = new Seta("arrow_up.png", 'U');
         setaCima5.setPosicao(7, 0);
         fase2.add(setaCima5);
 
-        Seta setaCima6 = new Seta("setacima.png", 'U');
+        Seta setaCima6 = new Seta("arrow_up.png", 'U');
         setaCima6.setPosicao(3, 8);
         fase2.add(setaCima6);
 
-        Seta setaCima7 = new Seta("setacima.png", 'U');
+        Seta setaCima7 = new Seta("arrow_up.png", 'U');
         setaCima7.setPosicao(4, 8);
         fase2.add(setaCima7);
 
-        Seta setaCima8 = new Seta("setacima.png", 'U');
+        Seta setaCima8 = new Seta("arrow_up.png", 'U');
         setaCima8.setPosicao(3, 6);
         fase2.add(setaCima8);
 
-        Seta setaCima9 = new Seta("setacima.png", 'U');
+        Seta setaCima9 = new Seta("arrow_up.png", 'U');
         setaCima9.setPosicao(7, 6);
         fase2.add(setaCima9);
 
-        Seta setaCima10 = new Seta("setacima.png", 'U');
+        Seta setaCima10 = new Seta("arrow_up.png", 'U');
         setaCima10.setPosicao(7, 8);
         fase2.add(setaCima10);
 
-        Seta setaCima11 = new Seta("setacima.png", 'U');
+        Seta setaCima11 = new Seta("arrow_up.png", 'U');
         setaCima11.setPosicao(7, 10);
         fase2.add(setaCima11);
 
         // SETAS PARA BAIXO
-        Seta setaBaixo1 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo1 = new Seta("arrow_down.png", 'D');
         setaBaixo1.setPosicao(3, 2);
         fase2.add(setaBaixo1);
 
-        Seta setaBaixo2 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo2 = new Seta("arrow_down.png", 'D');
         setaBaixo2.setPosicao(7, 2);
         fase2.add(setaBaixo2);
 
-        Seta setaBaixo3 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo3 = new Seta("arrow_down.png", 'D');
         setaBaixo3.setPosicao(3, 10);
         fase2.add(setaBaixo3);
 
-        Seta setaBaixo4 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo4 = new Seta("arrow_down.png", 'D');
         setaBaixo4.setPosicao(3, 4);
         fase2.add(setaBaixo4);
 
-        Seta setaBaixo5 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo5 = new Seta("arrow_down.png", 'D');
         setaBaixo5.setPosicao(7, 4);
         fase2.add(setaBaixo5);
 
-        Seta setaBaixo6 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo6 = new Seta("arrow_down.png", 'D');
         setaBaixo6.setPosicao(2, 4);
         fase2.add(setaBaixo6);
 
         // SETAS PARA DIREITA
-        Seta setaDireita1 = new Seta("setadireita.png", 'R');
+        Seta setaDireita1 = new Seta("arrow_right.png", 'R');
         setaDireita1.setPosicao(0, 3);
         fase2.add(setaDireita1);
 
-        Seta setaDireita2 = new Seta("setadireita.png", 'R');
+        Seta setaDireita2 = new Seta("arrow_right.png", 'R');
         setaDireita2.setPosicao(2, 3);
         fase2.add(setaDireita2);
 
-        Seta setaDireita3 = new Seta("setadireita.png", 'R');
+        Seta setaDireita3 = new Seta("arrow_right.png", 'R');
         setaDireita3.setPosicao(4, 3);
         fase2.add(setaDireita3);
 
-        Seta setaDireita4 = new Seta("setadireita.png", 'R');
+        Seta setaDireita4 = new Seta("arrow_right.png", 'R');
         setaDireita4.setPosicao(6, 3);
         fase2.add(setaDireita4);
 
-        Seta setaDireita5 = new Seta("setadireita.png", 'R');
+        Seta setaDireita5 = new Seta("arrow_right.png", 'R');
         setaDireita5.setPosicao(8, 3);
         fase2.add(setaDireita5);
 
-        Seta setaDireita6 = new Seta("setadireita.png", 'R');
+        Seta setaDireita6 = new Seta("arrow_right.png", 'R');
         setaDireita6.setPosicao(0, 7);
         fase2.add(setaDireita6);
 
-        Seta setaDireita7 = new Seta("setadireita.png", 'R');
+        Seta setaDireita7 = new Seta("arrow_right.png", 'R');
         setaDireita7.setPosicao(4, 7);
         fase2.add(setaDireita7);
 
-        Seta setaDireita8 = new Seta("setadireita.png", 'R');
+        Seta setaDireita8 = new Seta("arrow_right.png", 'R');
         setaDireita8.setPosicao(8, 7);
         fase2.add(setaDireita8);
 
-        Seta setaDireita9 = new Seta("setadireita.png", 'R');
+        Seta setaDireita9 = new Seta("arrow_right.png", 'R');
         setaDireita9.setPosicao(10, 7);
         fase2.add(setaDireita9);
 
         // SETAS PARA ESQUERDA
-        Seta setaEsquerda1 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda1 = new Seta("arrow_left.png", 'L');
         setaEsquerda1.setPosicao(10, 3);
         fase2.add(setaEsquerda1);
 
-        Seta setaEsquerda2 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda2 = new Seta("arrow_left.png", 'L');
         setaEsquerda2.setPosicao(2, 7);
         fase2.add(setaEsquerda2);
 
-        Seta setaEsquerda3 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda3 = new Seta("arrow_left.png", 'L');
         setaEsquerda3.setPosicao(6, 7);
         fase2.add(setaEsquerda3);
 
-        Seta setaEsquerda4 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda4 = new Seta("arrow_left.png", 'L');
         setaEsquerda4.setPosicao(4, 9);
         fase2.add(setaEsquerda4);
 
-        Seta setaEsquerda5 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda5 = new Seta("arrow_left.png", 'L');
         setaEsquerda5.setPosicao(4, 10);
         fase2.add(setaEsquerda5);
 
-        Seta setaEsquerda6 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda6 = new Seta("arrow_left.png", 'L');
         setaEsquerda6.setPosicao(2, 5);
         fase2.add(setaEsquerda6);
 
-        Seta setaEsquerda7 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda7 = new Seta("arrow_left.png", 'L');
         setaEsquerda7.setPosicao(2, 6);
         fase2.add(setaEsquerda7);
         
@@ -577,19 +577,19 @@ public class Fase {
         fase2.add(blocoImovel15);
 
         // FRUTAS
-        Coletaveis cereja = new Coletaveis("cereja.png");
+        Coletaveis cereja = new Coletaveis("c_cereja.png");
         cereja.setPosicao(9, 5);
         fase2.add(cereja);
 
-        Coletaveis morango = new Coletaveis("morango.png");
+        Coletaveis morango = new Coletaveis("c_morango.png");
         morango.setPosicao(5, 9);
         fase2.add(morango);
 
-        Coletaveis uva = new Coletaveis("uva.png");
+        Coletaveis uva = new Coletaveis("c_uva.png");
         uva.setPosicao(1, 5);
         fase2.add(uva);
 
-        Coletaveis limao = new Coletaveis("limao.png");
+        Coletaveis limao = new Coletaveis("c_limao.png");
         limao.setPosicao(5, 1);
         fase2.add(limao);
 
@@ -801,37 +801,37 @@ public class Fase {
         
         
         // COLETAVEIS
-        Coletaveis lampada = new Coletaveis("lampada.png");
+        Coletaveis lampada = new Coletaveis("c_lampada.png");
         lampada.setPosicao(5, 8);
         fase3.add(lampada);
         
-        Coletaveis lanterna = new Coletaveis("lanterna.png");
+        Coletaveis lanterna = new Coletaveis("c_lanterna.png");
         lanterna.setPosicao(5, 10);
         fase3.add(lanterna);
         
-        Coletaveis sol = new Coletaveis("sol.png");
+        Coletaveis sol = new Coletaveis("c_sol.png");
         sol.setPosicao(5, 0);
         fase3.add(sol);
         
-        Coletaveis vela = new Coletaveis("vela.png");
+        Coletaveis vela = new Coletaveis("c_vela.png");
         vela.setPosicao(5, 2);
         fase3.add(vela);
         
         
         // INIMIGOS
-        InimigoRosa inimigo_rosa1 = new InimigoRosa("roboRosa.png", p_player);
+        InimigoRosa inimigo_rosa1 = new InimigoRosa("inimigo_rosa.png", p_player);
         inimigo_rosa1.setPosicao(2, 5);
         fase3.add(inimigo_rosa1);
         
-        InimigoRosa inimigo_rosa2 = new InimigoRosa("roboRosa.png", p_player);
+        InimigoRosa inimigo_rosa2 = new InimigoRosa("inimigo_rosa.png", p_player);
         inimigo_rosa2.setPosicao(8, 5);
         fase3.add(inimigo_rosa2);
         
-        InimigoAzul inimigo_azul1 = new InimigoAzul("roboAzul.png", p_player);
+        InimigoAzul inimigo_azul1 = new InimigoAzul("inimigo_azul.png", p_player);
         inimigo_azul1.setPosicao(0, 5);
         fase3.add(inimigo_azul1);
         
-        InimigoAzul inimigo_azul2 = new InimigoAzul("roboAzul.png", p_player);
+        InimigoAzul inimigo_azul2 = new InimigoAzul("inimigo_azul.png", p_player);
         inimigo_azul2.setPosicao(10, 5);
         fase3.add(inimigo_azul2);
         
@@ -1075,37 +1075,37 @@ public class Fase {
 
         
         // COLETAVEIS
-        Coletaveis sol = new Coletaveis("sol.png");
+        Coletaveis sol = new Coletaveis("c_sol.png");
         sol.setPosicao(0, 0);
         fase4.add(sol);
         
-        Coletaveis lampada = new Coletaveis("lampada.png");
+        Coletaveis lampada = new Coletaveis("c_lampada.png");
         lampada.setPosicao(0, 10);
         fase4.add(lampada);
         
-        Coletaveis lanterna = new Coletaveis("lanterna.png");
+        Coletaveis lanterna = new Coletaveis("c_lanterna.png");
         lanterna.setPosicao(10, 10);
         fase4.add(lanterna);
         
-        Coletaveis vela = new Coletaveis("vela.png");
+        Coletaveis vela = new Coletaveis("c_vela.png");
         vela.setPosicao(10, 0);
         fase4.add(vela);
         
         
         // INIMIGOS
-        InimigoAmarelo inimigo_amarelo1 = new InimigoAmarelo("roboAmarelo.png", p_player);
+        InimigoAmarelo inimigo_amarelo1 = new InimigoAmarelo("inimigo_amarelo.png", p_player);
         inimigo_amarelo1.setPosicao(10, 5);
         fase4.add(inimigo_amarelo1);
 
-        InimigoAmarelo inimigo_amarelo2 = new InimigoAmarelo("roboAmarelo.png", p_player);
+        InimigoAmarelo inimigo_amarelo2 = new InimigoAmarelo("inimigo_amarelo.png", p_player);
         inimigo_amarelo2.setPosicao(0, 5);
         fase4.add(inimigo_amarelo2);
 
-        InimigoVerde inimigo_verde1 = new InimigoVerde("roboVerde.png");
+        InimigoVerde inimigo_verde1 = new InimigoVerde("inimigo_verde.png");
         inimigo_verde1.setPosicao(5, 0);
         fase4.add(inimigo_verde1);
 
-        InimigoRosa inimigo_rosa1 = new InimigoRosa("roboRosa.png", p_player);
+        InimigoRosa inimigo_rosa1 = new InimigoRosa("inimigo_rosa.png", p_player);
         inimigo_rosa1.setPosicao(5, 10);
         fase4.add(inimigo_rosa1);
 
@@ -1123,19 +1123,19 @@ public class Fase {
         fase5.add(p_player);
         
         // INIMIGOS
-        InimigoVerde inimigo_verde1 = new InimigoVerde("roboVerde.png");
+        InimigoVerde inimigo_verde1 = new InimigoVerde("inimigo_verde.png");
         inimigo_verde1.setPosicao(5, 8);
         fase5.add(inimigo_verde1);
 
-        InimigoRosa inimigo_rosa1 = new InimigoRosa("roboRosa.png", p_player);
+        InimigoRosa inimigo_rosa1 = new InimigoRosa("inimigo_rosa.png", p_player);
         inimigo_rosa1.setPosicao(5, 2);
         fase5.add(inimigo_rosa1);
 
-        InimigoAzul inimigo_azul1 = new InimigoAzul("roboAzul.png", p_player);
+        InimigoAzul inimigo_azul1 = new InimigoAzul("inimigo_azul.png", p_player);
         inimigo_azul1.setPosicao(8, 5);
         fase5.add(inimigo_azul1);
 
-        InimigoAmarelo inimigo_amarelo1 = new InimigoAmarelo("roboAmarelo.png", p_player);
+        InimigoAmarelo inimigo_amarelo1 = new InimigoAmarelo("inimigo_amarelo.png", p_player);
         inimigo_amarelo1.setPosicao(2, 5);
         fase5.add(inimigo_amarelo1);
 
@@ -1241,251 +1241,251 @@ public class Fase {
         fase5.add(blocoImovel25);
         
         // SETAS PARA CIMA
-        Seta setaCima1 = new Seta("setacima.png", 'U');
+        Seta setaCima1 = new Seta("arrow_up.png", 'U');
         setaCima1.setPosicao(0, 3);
         fase5.add(setaCima1);
         
-        Seta setaCima2 = new Seta("setacima.png", 'U');
+        Seta setaCima2 = new Seta("arrow_up.png", 'U');
         setaCima2.setPosicao(1, 0);
         fase5.add(setaCima2);
         
-        Seta setaCima3 = new Seta("setacima.png", 'U');
+        Seta setaCima3 = new Seta("arrow_up.png", 'U');
         setaCima3.setPosicao(1, 6);
         fase5.add(setaCima3);
         
-        Seta setaCima5 = new Seta("setacima.png", 'U');
+        Seta setaCima5 = new Seta("arrow_up.png", 'U');
         setaCima5.setPosicao(3, 4);
         fase5.add(setaCima5);
         
-        Seta setaCima6 = new Seta("setacima.png", 'U');
+        Seta setaCima6 = new Seta("arrow_up.png", 'U');
         setaCima6.setPosicao(3, 10);
         fase5.add(setaCima6);
         
-        Seta setaCima7 = new Seta("setacima.png", 'U');
+        Seta setaCima7 = new Seta("arrow_up.png", 'U');
         setaCima7.setPosicao(5, 4);
         fase5.add(setaCima7);
         
-        Seta setaCima9 = new Seta("setacima.png", 'U');
+        Seta setaCima9 = new Seta("arrow_up.png", 'U');
         setaCima9.setPosicao(7, 4);
         fase5.add(setaCima9);
         
-        Seta setaCima10 = new Seta("setacima.png", 'U');
+        Seta setaCima10 = new Seta("arrow_up.png", 'U');
         setaCima10.setPosicao(7, 6);
         fase5.add(setaCima10);
         
-        Seta setaCima11 = new Seta("setacima.png", 'U');
+        Seta setaCima11 = new Seta("arrow_up.png", 'U');
         setaCima11.setPosicao(7, 10);
         fase5.add(setaCima11);
         
-        Seta setaCima13 = new Seta("setacima.png", 'U');
+        Seta setaCima13 = new Seta("arrow_up.png", 'U');
         setaCima13.setPosicao(10, 1);
         fase5.add(setaCima13);
         
-        Seta setaCima14 = new Seta("setacima.png", 'U');
+        Seta setaCima14 = new Seta("arrow_up.png", 'U');
         setaCima14.setPosicao(10, 7);
         fase5.add(setaCima14);
         
         
         // SETAS PARA BAIXO
-        Seta setaBaixo1 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo1 = new Seta("arrow_down.png", 'D');
         setaBaixo1.setPosicao(0, 5);
         fase5.add(setaBaixo1);
         
-        Seta setaBaixo2 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo2 = new Seta("arrow_down.png", 'D');
         setaBaixo2.setPosicao(0, 9);
         fase5.add(setaBaixo2);
         
-        Seta setaBaixo3 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo3 = new Seta("arrow_down.png", 'D');
         setaBaixo3.setPosicao(1, 2);
         fase5.add(setaBaixo3);
         
-        Seta setaBaixo4 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo4 = new Seta("arrow_down.png", 'D');
         setaBaixo4.setPosicao(1, 4);
         fase5.add(setaBaixo4);
         
-        Seta setaBaixo5 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo5 = new Seta("arrow_down.png", 'D');
         setaBaixo5.setPosicao(3, 0);
         fase5.add(setaBaixo5);
         
-        Seta setaBaixo6 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo6 = new Seta("arrow_down.png", 'D');
         setaBaixo6.setPosicao(3, 2);
         fase5.add(setaBaixo6);
         
-        Seta setaBaixo7 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo7 = new Seta("arrow_down.png", 'D');
         setaBaixo7.setPosicao(3, 8);
         fase5.add(setaBaixo7);
         
-        Seta setaBaixo8 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo8 = new Seta("arrow_down.png", 'D');
         setaBaixo8.setPosicao(4, 7);
         fase5.add(setaBaixo8);
         
-        Seta setaBaixo9 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo9 = new Seta("arrow_down.png", 'D');
         setaBaixo9.setPosicao(5, 6);
         fase5.add(setaBaixo9);
         
-        Seta setaBaixo10 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo10 = new Seta("arrow_down.png", 'D');
         setaBaixo10.setPosicao(7, 2);
         fase5.add(setaBaixo10);
         
-        Seta setaBaixo11 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo11 = new Seta("arrow_down.png", 'D');
         setaBaixo11.setPosicao(7, 8);
         fase5.add(setaBaixo11);
         
-        Seta setaBaixo12 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo12 = new Seta("arrow_down.png", 'D');
         setaBaixo12.setPosicao(9, 0);
         fase5.add(setaBaixo12);
         
-        Seta setaBaixo13 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo13 = new Seta("arrow_down.png", 'D');
         setaBaixo13.setPosicao(9, 4);
         fase5.add(setaBaixo13);
         
-        Seta setaBaixo14 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo14 = new Seta("arrow_down.png", 'D');
         setaBaixo14.setPosicao(9, 6);
         fase5.add(setaBaixo14);
         
-        Seta setaBaixo15 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo15 = new Seta("arrow_down.png", 'D');
         setaBaixo15.setPosicao(9, 8);
         fase5.add(setaBaixo15);
         
-        Seta setaBaixo16 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo16 = new Seta("arrow_down.png", 'D');
         setaBaixo16.setPosicao(1, 8);
         fase5.add(setaBaixo16);
         
-        Seta setaBaixo17 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo17 = new Seta("arrow_down.png", 'D');
         setaBaixo17.setPosicao(7, 0);
         fase5.add(setaBaixo17);
         
-        Seta setaBaixo18 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo18 = new Seta("arrow_down.png", 'D');
         setaBaixo18.setPosicao(9, 2);
         fase5.add(setaBaixo18);
         
-        Seta setaBaixo19 = new Seta("setabaixo.png", 'D');
+        Seta setaBaixo19 = new Seta("arrow_down.png", 'D');
         setaBaixo19.setPosicao(10, 3);
         fase5.add(setaBaixo19);
         
         
         // SETAS PARA DIREITA
-        Seta setaDireita1 = new Seta("setadireita.png", 'R');
+        Seta setaDireita1 = new Seta("arrow_right.png", 'R');
         setaDireita1.setPosicao(0, 1);
         fase5.add(setaDireita1);
         
-        Seta setaDireita2 = new Seta("setadireita.png", 'R');
+        Seta setaDireita2 = new Seta("arrow_right.png", 'R');
         setaDireita2.setPosicao(2, 3);
         fase5.add(setaDireita2);
         
-        Seta setaDireita3 = new Seta("setadireita.png", 'R');
+        Seta setaDireita3 = new Seta("arrow_right.png", 'R');
         setaDireita3.setPosicao(2, 7);
         fase5.add(setaDireita3);
         
-        Seta setaDireita4 = new Seta("setadireita.png", 'R');
+        Seta setaDireita4 = new Seta("arrow_right.png", 'R');
         setaDireita4.setPosicao(2, 9);
         fase5.add(setaDireita4);
         
-        Seta setaDireita5 = new Seta("setadireita.png", 'R');
+        Seta setaDireita5 = new Seta("arrow_right.png", 'R');
         setaDireita5.setPosicao(5, 0);
         fase5.add(setaDireita5);
         
-        Seta setaDireita6 = new Seta("setadireita.png", 'R');
+        Seta setaDireita6 = new Seta("arrow_right.png", 'R');
         setaDireita6.setPosicao(5, 10);
         fase5.add(setaDireita6);
         
-        Seta setaDireita7 = new Seta("setadireita.png", 'R');
+        Seta setaDireita7 = new Seta("arrow_right.png", 'R');
         setaDireita7.setPosicao(6, 5);
         fase5.add(setaDireita7);
         
-        Seta setaDireita8 = new Seta("setadireita.png", 'R');
+        Seta setaDireita8 = new Seta("arrow_right.png", 'R');
         setaDireita8.setPosicao(6, 7);
         fase5.add(setaDireita8);
         
-        Seta setaDireita9 = new Seta("setadireita.png", 'R');
+        Seta setaDireita9 = new Seta("arrow_right.png", 'R');
         setaDireita9.setPosicao(8, 1);
         fase5.add(setaDireita9);
         
-        Seta setaDireita10 = new Seta("setadireita.png", 'R');
+        Seta setaDireita10 = new Seta("arrow_right.png", 'R');
         setaDireita10.setPosicao(8, 3);
         fase5.add(setaDireita10);
         
-        Seta setaDireita11 = new Seta("setadireita.png", 'R');
+        Seta setaDireita11 = new Seta("arrow_right.png", 'R');
         setaDireita11.setPosicao(8, 7);
         fase5.add(setaDireita11);
         
-        Seta setaDireita12 = new Seta("setadireita.png", 'R');
+        Seta setaDireita12 = new Seta("arrow_right.png", 'R');
         setaDireita12.setPosicao(10, 5);
         fase5.add(setaDireita12);
         
-        Seta setaDireita13 = new Seta("setadireita.png", 'R');
+        Seta setaDireita13 = new Seta("arrow_right.png", 'R');
         setaDireita13.setPosicao(10, 9);
         fase5.add(setaDireita13);
         
-        Seta setaDireita14 = new Seta("setadireita.png", 'R');
+        Seta setaDireita14 = new Seta("arrow_right.png", 'R');
         setaDireita14.setPosicao(4, 5);
         fase5.add(setaDireita14);
         
         
         
         // SETAS PARA ESQUERDA
-        Seta setaEsquerda1 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda1 = new Seta("arrow_left.png", 'L');
         setaEsquerda1.setPosicao(2, 1);
         fase5.add(setaEsquerda1);
         
-        Seta setaEsquerda2 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda2 = new Seta("arrow_left.png", 'L');
         setaEsquerda2.setPosicao(0, 7);
         fase5.add(setaEsquerda2);
         
-        Seta setaEsquerda3 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda3 = new Seta("arrow_left.png", 'L');
         setaEsquerda3.setPosicao(1, 10);
         fase5.add(setaEsquerda3);
         
-        Seta setaEsquerda4 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda4 = new Seta("arrow_left.png", 'L');
         setaEsquerda4.setPosicao(4, 1);
         fase5.add(setaEsquerda4);
         
-        Seta setaEsquerda5 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda5 = new Seta("arrow_left.png", 'L');
         setaEsquerda5.setPosicao(4, 3);
         fase5.add(setaEsquerda5);
         
-        Seta setaEsquerda7 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda7 = new Seta("arrow_left.png", 'L');
         setaEsquerda7.setPosicao(4, 9);
         fase5.add(setaEsquerda7);
         
-        Seta setaEsquerda8 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda8 = new Seta("arrow_left.png", 'L');
         setaEsquerda8.setPosicao(6, 1);
         fase5.add(setaEsquerda8);
         
-        Seta setaEsquerda9 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda9 = new Seta("arrow_left.png", 'L');
         setaEsquerda9.setPosicao(6, 3);
         fase5.add(setaEsquerda9);
         
-        Seta setaEsquerda10 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda10 = new Seta("arrow_left.png", 'L');
         setaEsquerda10.setPosicao(6, 9);
         fase5.add(setaEsquerda10);
         
-        Seta setaEsquerda11 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda11 = new Seta("arrow_left.png", 'L');
         setaEsquerda11.setPosicao(8, 9);
         fase5.add(setaEsquerda11);
         
-        Seta setaEsquerda12 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda12 = new Seta("arrow_left.png", 'L');
         setaEsquerda12.setPosicao(9, 10);
         fase5.add(setaEsquerda12);
         
-        Seta setaEsquerda15 = new Seta("setaesquerda.png", 'L');
+        Seta setaEsquerda15 = new Seta("arrow_left.png", 'L');
         setaEsquerda15.setPosicao(3, 6);
         fase5.add(setaEsquerda15);
 
         // COLETAVEIS
-        Coletaveis cereja = new Coletaveis("cereja.png");
+        Coletaveis cereja = new Coletaveis("c_cereja.png");
         cereja.setPosicao(2, 2);
         fase5.add(cereja);
 
-        Coletaveis limao = new Coletaveis("limao.png");
+        Coletaveis limao = new Coletaveis("c_limao.png");
         limao.setPosicao(2, 8);
         fase5.add(limao);
 
-        Coletaveis morango = new Coletaveis("morango.png");
+        Coletaveis morango = new Coletaveis("c_morango.png");
         morango.setPosicao(8, 2);
         fase5.add(morango);
 
-        Coletaveis uva = new Coletaveis("uva.png");
+        Coletaveis uva = new Coletaveis("c_uva.png");
         uva.setPosicao(8, 8);
         fase5.add(uva);
 
