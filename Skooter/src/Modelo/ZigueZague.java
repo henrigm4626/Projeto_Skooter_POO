@@ -1,3 +1,4 @@
+/*Código não utilizado no contexto do Skooter (ver "InimigoVerde.java" para mais informações)
 package Modelo;
 
 import Auxiliar.Desenho;
@@ -25,3 +26,4 @@ public class ZigueZague extends Personagem{
         super.autoDesenho();
     }    
 }
+*/

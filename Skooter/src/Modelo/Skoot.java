@@ -1,3 +1,4 @@
+/*Código não utilizado no contexto do Skooter (substituído por "Player.java")
 package Modelo;
 
 import Auxiliar.Consts;
@@ -18,12 +19,12 @@ public class Skoot extends Personagem implements Serializable{
     }
 
     public void voltaAUltimaPosicao(){
-        this.pPosicao.volta();
+        this.pPosition.volta();
     }
     
     
     public boolean setPosicao(int linha, int coluna){
-        if(this.pPosicao.setPosicao(linha, coluna)){
+        if(this.pPosition.setPosicao(linha, coluna)){
             if (!Desenho.acessoATelaDoJogo().ehPosicaoValida(this.getPosicao())) {
                 this.voltaAUltimaPosicao();
             }
@@ -32,7 +33,7 @@ public class Skoot extends Personagem implements Serializable{
         return false;       
     }
 
-    /*TO-DO: este metodo pode ser interessante a todos os personagens que se movem*/
+    //VER "Animado.java"
     private boolean validaPosicao(){
         if (!Desenho.acessoATelaDoJogo().ehPosicaoValida(this.getPosicao())) {
             this.voltaAUltimaPosicao();
@@ -66,3 +67,4 @@ public class Skoot extends Personagem implements Serializable{
     }    
     
 }
+*/

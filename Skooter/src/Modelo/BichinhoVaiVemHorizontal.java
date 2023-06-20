@@ -1,3 +1,4 @@
+/*Código não utilizado no contexto do Skooter (ver "Inimigo(x).java" para mais informações)
 package Modelo;
 
 import Auxiliar.Consts;
@@ -20,11 +21,12 @@ public class BichinhoVaiVemHorizontal extends Personagem  implements Serializabl
     }
     public void autoDesenho(){
         if(bRight)
-            this.setPosicao(pPosicao.getLinha(), pPosicao.getColuna()+1);
+            this.setPosicao(pPosition.getLinha(), pPosition.getColuna()+1);
         else
-            this.setPosicao(pPosicao.getLinha(), pPosicao.getColuna()-1);           
+            this.setPosicao(pPosition.getLinha(), pPosition.getColuna()-1);           
 
         super.autoDesenho();
         bRight = !bRight;
     }
 }
+*/

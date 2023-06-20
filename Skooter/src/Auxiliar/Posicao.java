@@ -11,6 +11,10 @@ public class Posicao  implements Serializable{
 
     public Posicao(int linha, int coluna){
         this.setPosicao(linha,coluna);
+        if(this.linhaAnterior == -1 || this.colunaAnterior == -1){
+            this.linhaAnterior = this.linha;
+            this.colunaAnterior = this.coluna;
+        }
     }
 
     public boolean setPosicao(int linha, int coluna){       
@@ -30,6 +34,11 @@ public class Posicao  implements Serializable{
     public int getLinha(){
         return linha;
     }
+    
+    //Adicionando um "get" para linhaAnterior (já definida)
+    public int getLinhaAnterior() {
+        return linhaAnterior;
+    }
    
     public boolean volta(){
         return this.setPosicao(linhaAnterior,colunaAnterior);
@@ -37,6 +46,11 @@ public class Posicao  implements Serializable{
 
     public int getColuna(){
         return coluna;
+    }
+    
+    //Adicionando um "get" para colunaAnterior (já definida)
+    public int getColunaAnterior() {
+        return colunaAnterior;
     }
 
     public boolean igual(Posicao posicao){

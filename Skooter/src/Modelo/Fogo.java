@@ -1,3 +1,4 @@
+/*Código não utilizado no contexto do Skooter
 package Modelo;
 
 import Auxiliar.Desenho;
@@ -20,3 +21,4 @@ public class Fogo extends Personagem implements Serializable{
     }
     
 }
+*/

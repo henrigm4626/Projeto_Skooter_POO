@@ -1,3 +1,5 @@
+/*Código não utilizado no contexto do Skooter
+
 package Modelo;
 
 import Auxiliar.Consts;
@@ -27,3 +29,5 @@ public class Caveira extends Personagem implements Serializable{
         }
     }    
 }
+
+*/
